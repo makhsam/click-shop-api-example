@@ -1,5 +1,18 @@
 <?php
 
+
+error_reporting(0);
+header('Content-Type: text/json');
+header('Charset: UTF-8');
+
+$request = $_POST;
+
+$merchant_id = 'YOUR MERCHANT ID';
+$service_id = 'YOUR SERVICE ID';
+$merchant_user_id = 'YOUR MERCHANT USER ID';
+$secret_key = 'SECRET KEY';
+
+
 // Проверка отправлено-ли все параметры
 if(!(
         isset($request['click_trans_id']) &&

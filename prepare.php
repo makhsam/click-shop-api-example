@@ -6,9 +6,10 @@ header('Charset: UTF-8');
 
 $request = $_POST;
 
-$service_id = '12713';
-$merchant_user_id = '11154';
-$secret_key = '6ZRZmAt8OG';
+$merchant_id = 'YOUR MERCHANT ID';
+$service_id = 'YOUR SERVICE ID';
+$merchant_user_id = 'YOUR MERCHANT USER ID';
+$secret_key = 'SECRET KEY';
 
 // Проверка отправлено-ли все параметры
 if(!(
