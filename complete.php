@@ -39,7 +39,7 @@ if(!(
 $sign_string = md5(
     $request['click_trans_id'] .
     $request['service_id'] .
-    $this->provider['secret_key'] .
+    $secret_key .
     $request['merchant_trans_id'] .
     $request['merchant_prepare_id'] .
     $request['amount'] .
