@@ -127,7 +127,7 @@ if( $request['error'] < 0 ) {
         'error_note' => 'Success',
         'click_trans_id' => $request['click_trans_id'],
         'merchant_trans_id' => $request['merchant_trans_id'],
-        'merchant_comfirm_id' => $log_id,
+        'merchant_confirm_id' => $log_id,
     ));
 
     exit;
